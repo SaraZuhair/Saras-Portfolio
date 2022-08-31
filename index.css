@@ -1,0 +1,222 @@
+#navbar {
+    width: 100%;
+    height: 80px;
+    background-color: 	#CD5C5C;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
+  
+  #item  {
+    position: relative;
+    left: 80%;
+    top: 30%;
+    margin-left: 2%;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  #welcome-section {
+  height: 90%;
+  width: 100%;
+  background-color:#303030;
+  margin-top: -20px;
+  text-align: center;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0;
+  }
+  
+  #welcome-section h1 {
+    padding-top: 15%;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+  
+  }
+  
+  #welcome-section p {
+    font-size: 30px;
+    color: #CD5C5C;
+    font-family: Helviteca;
+    
+  }
+  
+  #projects {
+  height: 115%;
+  width: 100%;
+  background-color:#6082B6;
+  }
+  
+  #projects h2{
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    margin-top: 0;
+    font-size: 30px;
+  }
+  
+  hr {
+  text-align: center;
+  width: 30%;
+  margin-top: -8%;
+  border: 1px solid white;
+  }
+  
+  #project-div {
+    height: 200px;
+    width: 250px;
+    background-color: #CD5C5C;
+  
+  }
+  
+  
+  .project-tile {
+    height: 50px;
+    width: 250px;
+    background-color: #303030;
+    margin-top: 70%;
+  }
+  
+  .project-tile p {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 5%;
+  }
+  
+  
+  #hold {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 40px;
+    font-weight: normal;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+   background-color: #6082B6;
+  }
+  
+  #project-div:hover {
+   transform: scale(1.1);
+  }
+  
+  #project-div:nth-of-type(1) {
+    background-image: url("https://stephaniemariepotter.com/wp-content/uploads/2022/07/penguinfreecodecamp-400x284.jpg");
+    background-size: 300px 200px;
+  }
+  
+  #project-div:nth-of-type(2) {
+    background-image: url("https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg");
+    background-size: 300px 200px;
+  }
+  
+  #project-div:nth-of-type(3) {
+    background-image: url("https://global.discourse-cdn.com/freecodecamp/original/3X/b/6/b655d447b6b76928b2bb379cc86c24fcd26522e1.gif");
+    background-size: 250px 200px;
+  
+  }
+  
+  #project-div:nth-of-type(4) {
+    background-image: url("https://user-images.githubusercontent.com/78083890/180659624-8ad86005-fba2-403c-bcfa-c1490a071c44.png");
+    background-size: 250px 200px;
+  
+  }
+  
+  #project-div:nth-of-type(5) {
+    background-image: url("https://shot.plnkr.co/7JiEj0gLXYkwfkxA.png?d=2022-06-25T22%3A11%3A09.773Z");
+    background-size: 250px 200px;
+    
+  
+  }
+  
+  #project-div:nth-of-type(6) {
+    background-image: url("https://global.discourse-cdn.com/freecodecamp/optimized/4X/7/b/1/7b1f6c3c06003266e2d6d2f517640d7ffe847030_2_1023x424.png");
+    background-size: 250px 200px;
+  
+  }
+  
+  
+  #profile-link {
+   width: 100px;
+   height: 50px;
+   font-size: 15px;
+   background-color: #303030;
+   color: white;
+  margin-top: 5%;
+  }
+  
+  #form{
+   margin-top: 0%;
+   background-color: #6082B6;
+   width: 100%;
+   height: 150px;
+   text-align: center;
+  }
+  
+  #profile-link:hover {
+    transform: scale(1.1);
+  }
+  
+  #last {
+    height: 90%;
+  width: 100%;
+  background-color:#404040;
+  margin-top: -20px;
+  text-align: center;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0;
+  }
+  
+  #last h1 {
+    padding-top: 15%;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+  
+  }
+  
+  #last p {
+    font-size: 20px;
+    color: white;
+    font-family: Helviteca;
+    
+  }
+  
+  button {
+    background-color: #404040;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding-top: 3%;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  #last a{
+    margin-left: 2%;
+  }
+  
+  @media only screen and (max-width:769px) {
+  #welcome-section h1 {
+      font-size: 30px;
+    }
+  
+    #welcome-section p {
+    font-size: 20px;
+    color: #CD5C5C;
+    font-family: Helviteca;
+    
+  }
+  }
